@@ -1,0 +1,36 @@
+.random {
+    background-color: rgb(117, 12, 138);
+    font-size: 100px;
+    font-style: italic;
+}
+
+
+
+.singleProduct {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    background-color: rgba(255, 228, 196, 0.619);
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    margin-bottom: 40px;
+    border: 1px solid black;
+    border-radius: 40px;
+    color:white;
+    font-size:1.85rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.singleProduct img {
+    width: 70%;
+}
+
+
+.productDetail{
+    display: flex;
+    gap: 15px;
+    justify-content:space-around;
+}
