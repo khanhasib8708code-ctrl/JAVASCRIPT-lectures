@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <form action="" id="form">
+        <div>
+            <label for="username">Name:</label>
+            <input type="text" name="username" id="username" placeholder="Enter your name">
+            <span class="error-message" style="color: red;"></span>
+        </div>
+
+        <div>
+            <label for="Email">Email:</label>
+            <input type="text" name="Email" id="Email" placeholder="Enter your email">
+            <span class="error-message" style="color: red;"></span>
+        </div>
+        <div>
+            <label for="Password">Password:</label>
+            <input type="number" name="Password" id="Password" placeholder="Enter your Password">
+            <span class="error-message" style="color: red;"></span>
+        </div>
+
+        <p id="Password-Hint" class="hidden">must be atleast 8 characters</p>
+
+        <div>
+            <label for="bio">Bio:</label>
+            <textarea name="bio" id="bio" placeholder="Enter your bio ..."></textarea>
+            <span id="error-message" style="color: red;"></span>
+            <p id="char-count"></p>
+        </div>
+
+        <div>
+            <label for="country">select your country</label>
+            <select name="country" id="country">
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="Uk">Uk</option>
+            </select>
+        </div>
+
+        <div>
+            <input type="checkbox" name="checkbox" id="checkbox">
+            <label for="checkbox">I agree to the terms and condition</label>
+            <span class="error-message" style="color: red;"></span>
+        </div>
+
+        <button id="btn">Create Account</button>
+    </form>
+    <h1 class="hidden">Account created successfully</h1>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
